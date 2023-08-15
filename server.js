@@ -20,6 +20,13 @@ const port = 3000;
 const greetingRouter = require('./greetings');
 app.use('/greetings', greetingRouter);
 
+const tipRouter = require('./tip');
+app.use('/tip', tipRouter);
+
+const magicRouter = require('./magic');
+app.use('/magic', magicRouter);
+
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
