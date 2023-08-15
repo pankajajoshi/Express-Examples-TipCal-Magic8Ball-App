@@ -41,6 +41,7 @@ Tell the server where to listen for requests (the port).
 Make a route '/greeting'that sends a generic greeting to the screen like "Hello, stranger".
 Give the greetingroute a param /:name
 When hitting the route, the page should display a message such as "Hello, ", or "What's up, <name>", or "<name>! It's so great to see you!" (ex. hitting '/greeting/Jimmy-boy'should display Wow! Hello there, Jimmy-boyon the page).
+
 <h2>Greetings Screenshot</h2>
 
 <img src="greeting.png" />
@@ -66,4 +67,4 @@ Use this array of Magic 8 ball responses.....
 
 <h2>Magic8Ball Screenshot</h2>
 
-<img src="magic.png" />
+<img src="magic8.png" />
